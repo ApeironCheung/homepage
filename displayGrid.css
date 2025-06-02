@@ -1,0 +1,58 @@
+/* displayGrid.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: yellow;
+    background: linear-gradient(135deg, #003300 0%, #009900 100%);
+    min-height: 100vh;
+}
+
+/* Shared styles for coherence with index.html */
+#description {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: yellow;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: rgba(0, 51, 0, 0.8);
+    border: 1px solid #006600;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: yellow;
+    transition: transform 0.2s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.02);
+}
+
+.grid-item iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
