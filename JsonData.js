@@ -2,13 +2,13 @@ function loadSideBar() {
   return {
     "buttons": [
       { "buttonImg": "images/header.jpg", "buttonPath": "home.html" },
-      { "buttonImg": "images/button_aboutMe.jpg", "buttonPath": "about.html" },
-      { "buttonImg": "images/button_3DModel.jpg", "buttonPath": "model.html" },
-      { "buttonImg": "images/button_animations.jpg", "buttonPath": "animation.html" },
-      { "buttonImg": "images/button_itch.jpg", "buttonPath": "https://apeironcheung.itch.io" },
-      { "buttonImg": "images/button_git.jpg", "buttonPath": "https://https://github.com/ApeironCheung" },
-      { "buttonImg": "images/button_patreon.jpg", "buttonPath": "https://www.patreon.com/c/apeironcheung" },
-      { "buttonImg": "images/button_spiritChannel.jpg", "buttonPath": "https://www.youtube.com/@Spirit-Channel-main" }
+      { "buttonImg": "images/button_aboutMe.png", "buttonPath": "about.html" },
+      { "buttonImg": "images/button_3DModel.png", "buttonPath": "model.html" },
+      { "buttonImg": "images/button_animations.png", "buttonPath": "animation.html" },
+      { "buttonImg": "images/button_itch.png", "buttonPath": "https://apeironcheung.itch.io" },
+      { "buttonImg": "images/button_git.png", "buttonPath": "https://https://github.com/ApeironCheung" },
+      { "buttonImg": "images/button_patreon.png", "buttonPath": "https://www.patreon.com/c/apeironcheung" },
+      { "buttonImg": "images/button_spiritChannel.png", "buttonPath": "https://www.youtube.com/@Spirit-Channel-main" }
     ]
   };
 }
@@ -16,9 +16,9 @@ function loadSideBar() {
 function load3Dmodels(){
   return{
     "description":[
-      {"content":""}
+      {"paragraph":"These are the 3D models I made in York U course DATT2500"}
     ],
-    "models":[
+    "content":[
       {"name": "Honda Civic", "id" :"82FLoqlvvpI", "year":"2020", "software":"Maya",
         "description" : "First homework of 3D modeling course in York U, exercising extrude and other basic functions."},
       {"name": "Shark", "id":"Vcjfl2ALfr8", "year":"2020", "software":"Maya",
@@ -32,9 +32,9 @@ function load3Dmodels(){
 function loadAnimations(){
   return{
         "description":[
-      {"content":""}
+      {"paragraph":"These are the animation I made in York U course DATT2501."}
     ],
-    "animations":[
+    "content":[
       {"name": "Dropping Balls", "id" : "3lkUcmYStag", "year":"2021", "software":"Maya",
         "description" :"First homework of 3D animation course in York U, applying motion physics in animation."},
       {"name":"Taekwondo", "id":"8okUTD02UE8", "year":"2021", "software":"Maya",
