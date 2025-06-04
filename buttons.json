@@ -1,0 +1,13 @@
+{
+    "buttons": [
+        { "buttonImg": "header.jpg", "buttonPath": "https://github.com/demo/repro/home.html" },
+        { "buttonImg": "index.jpg", "buttonPath": "https://github.com/demo/repro/index.html" },
+        { "buttonImg": "about.jpg", "buttonPath": "https://github.com/demo/repro/about.html" },
+        { "buttonImg": "models.jpg", "buttonPath": "https://github.com/demo/repro/models.html" },
+        { "buttonImg": "animations.jpg", "buttonPath": "https://github.com/demo/repro/animations.html" },
+        { "buttonImg": "itch.jpg", "buttonPath": "https://demo.itch.io" },
+        { "buttonImg": "git.jpg", "buttonPath": "https://github.com/demo" },
+        { "buttonImg": "patreon.jpg", "buttonPath": "https://patreon.com/demo" },
+        { "buttonImg": "youtube.jpg", "buttonPath": "https://youtube.com/demo" }
+    ]
+}
