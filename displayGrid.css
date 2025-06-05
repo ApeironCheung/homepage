@@ -55,4 +55,49 @@ p {
     margin: 5px 0;
     font-size: 0.95rem;
     line-height: 1.4;
+}/* 一列一個 playlist */
+.playlist-section {
+    width: 100%;
+    margin-bottom: 40px;
+    display: block;
+}
+
+/* 可選的 h3 樣式 */
+.playlist-title {
+    font-size: 24px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+/* 影片排成三列 */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* 每個影片卡片 */
+.video-block {
+    width: 100%;
+}
+
+/* iframe 外觀和 hover 動畫 */
+.video-block iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.video-block:hover iframe {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00ff00;
+}
+
+/* 影片下方標題 */
+.video-title {
+    text-align: center;
+    font-size: 14px;
+    color: yellow;
+    margin-top: 5px;
+    opacity: 0.8;
 }
