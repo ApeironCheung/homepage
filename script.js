@@ -44,4 +44,7 @@ function handleButtonClick(url) {
     }
 }
 
-window.onload = loadPage;
+window.onload = function () {
+  loadPage();      
+  handleButtonClick("home.html"); 
+};

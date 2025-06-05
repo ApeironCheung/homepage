@@ -40,12 +40,26 @@ function createPage(mode) {
     desc.innerText = description;
 }
 function createVideoPage() {
+    videoPage(0);
+}
+function createHomePage() {
+    videoPage(1);
+}
+function createAboutPage(){
+    videoPage(2);
+}
+function videoPage(data) {
     const container = document.getElementById("grid");
     const desc = document.getElementById("description");
 
     if (!container || !desc) return;
 
     let jsonData = loadYouTube();
+    if(data === 1){
+        jsonData = homePage();
+    }else if(data === 2){
+        jsonData = aboutPage();
+    }
     let playlists = jsonData.content;
     let description = jsonData.description[0].paragraph;
 

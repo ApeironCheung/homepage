@@ -58,3 +58,46 @@ function loadYouTube(){
     ]
   }
 }
+function homePage(){
+  return{
+        "description":[
+      {"paragraph":"Welcome to Apeiron Creative Grove! This is a collection of my artwork, articles and codes."}
+    ],
+    "content":[
+
+    ]
+  }
+}
+function aboutPage(){
+  return{
+        "description":[
+      {"paragraph":"About Me<br><br>" +
+        "I am a polymath that expertise in 3D model & animation, 2D graphics, Chinese writing and coding, with heavy background in Spiritual and Traditional Chinese culture."+ 
+        "I just follow the flow and learn the skills. I learn new skills every stage<br><br>"+
+        "I started writing science faction when I was in high school(2000), since I faced bottleneck on hand drawing. "+
+        "I keep writing on website, and published my novel in CW (Comic World) and RG (Rainbow Gala), which are ACG events. "+
+        "My writing skill bring me to be an editor in 2011, after I graduated from university for few years. "+
+        "I cooperated with designers and typesetters in my job, and find that I could use photoshop even my hand drawing is not good enough.<br><br>"+
+        "Umbrella Movement in 2014 changed my direction, I started learning traditional Chinese writing from a political party which value traditional Chinese culture a lot. "+
+        "Way of layoff comes to news industry in 2015, I change to a job offer me more me time, so I can focus on political and help my homeland. "+
+        "My volunteer in political party bring me experience for writing articles and promotion scripts, which practice my writing skill just upgraded. "+
+        "At the same time I took Traditional Chinese Medicine course with my girlfriend (now my wife), which all about ancient Chinese concepts. "+
+        "My teacher of TCM, bring me to his Tai Chi Master, which the tradition Chinese concepts can also apply for movements of Tai Chi, coherence with Wing Chun and Piguaquan(Chop-Hanging Fist) I learn before.<br><br>"+
+        "However, I need to relocated to Canada because of political reason, and my Chinese writing skill seems useless in an English environment, so I start thinking of formally learn 2D design, which is my coworkers' skill when I was an editor. "+
+        "Another political events happens, I was asked to edit videos and design graphics, which I practice it just after my learning. "+
+        "During that time, I watched a youtube channel teaching Purple Star Calculation, I helped my friends to calculate, and then they refer customers to me, some of my customers are astrology workers.<br><br>"+
+        "I started my study in Digital Media in York University, as I plan to move to design field. I learn 3D modeling & animation in my first year, and then effects in my second year. "+
+        "Game design is a stream in Digital Media involve a lot of coding, which Maths is vital. However, as a student in art steam in high school, I have not learnt it before like other classmates in YorkU."+
+        "I pray to Buddha for good result, and as a result I got A in those Math subjects. I successfully changed to Game Design stream, and then changed my major to Computer Science as a result of exceptional GPA. "+
+        "My experience of praying solidify my believe in religious.<br><br>"+
+        "I believe true->moral->artistic.<br><br>"+
+        "Artistic is base on moral. Artistic without moral is ugly. It cannot tell how beautiful the world is, just some personal expressions and not generally appreciated.<br>"+
+        "Moral is based on true, Moral without true is hypocritical. That's why moral need to be backed up by metaphysics, it may be philosophy or religion.<br> "+
+        "True is backed up by metaphysics, which is a priori. Anything posterior just inside Matrix and not rational. Maths is the best to exercise our critical thinking on it." }
+    ],
+    "content":[
+
+    ]
+  }
+}
+
