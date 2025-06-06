@@ -39,8 +39,14 @@ function loadAnimations(){
         "description" :"First homework of 3D animation course in York U, applying motion physics in animation."},
       {"name":"Taekwondo", "id":"8okUTD02UE8", "year":"2021", "software":"Maya",
         "description":"Second homework of 3D animation course in York U, applying rigging and human actions. Reference video: https://youtu.be/WmsWcCnFQbY"},
-      {"name":"Video", "id":"yOlYfgLm0Cw", "year":"2021", "software":"Maya",
-        "description":"Final project of 3D animation course in York U, theme is Covid life. Describing praying at church was banned and social life in zoom." }
+      {"name":"Break covid jail", "id":"yOlYfgLm0Cw", "year":"2021", "software":"Maya",
+        "description":"Final project of 3D animation course in York U, theme is Covid life. Describing praying at church was banned and social life in zoom." },
+      {"name":"Four seasons", "id":"IMFXwPdPuag", "year":"2021", "software":"Max8",
+        "description":"Group project of particle effect course in York U, theme is Four seasons since we are in a group of 4. I handled Spring and Summer, another 2 do fall and winter."},
+      {"name":"Particle movement of The Heart Sutra", "id":"oDjZVBUyZK8", "year":"2021", "software":"Max8",
+        "description":"Using soundwaves of chanting The Heart Sutra as input and affecting move of particles. Project in DATT2050 made by Max8 in 2021."},
+      {"name":"Rose field in aurora", "id":"videos/DATT2050_P3.mp4", "year":"2021", "software":"Max8", "upload":"true",
+        "description":"Rose field in aurora (DATT2050 project) is made by Max8 in 2021. It demonstrates rotation of particles in form of flowers, aurora and sea waves. "}
     ]
   }
 }

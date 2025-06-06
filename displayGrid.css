@@ -55,21 +55,19 @@ p {
     margin: 5px 0;
     font-size: 0.95rem;
     line-height: 1.4;
-}/* 一列一個 playlist */
+}
 .playlist-section {
     width: 100%;
     margin-bottom: 40px;
     display: block;
 }
 
-/* 可選的 h3 樣式 */
 .playlist-title {
     font-size: 24px;
     color: yellow;
     margin-bottom: 10px;
 }
 
-/* 影片排成三列 */
 .video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
