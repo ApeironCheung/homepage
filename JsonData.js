@@ -5,14 +5,31 @@ function loadSideBar() {
       { "buttonImg": "images/button_aboutMe.png", "buttonPath": "about.html" },
       { "buttonImg": "images/button_3DModel.png", "buttonPath": "model.html" },
       { "buttonImg": "images/button_animations.png", "buttonPath": "animation.html" },
+      { "buttonImg": "images/button_design.png", "buttonPath": "design.html" },      
       { "buttonImg": "images/button_spiritChannel.png", "buttonPath": "spiritChannel.html" },
       { "buttonImg": "images/button_itch.png", "buttonPath": "https://apeironcheung.itch.io" },
       { "buttonImg": "images/button_git.png", "buttonPath": "https://https://github.com/ApeironCheung" },
       { "buttonImg": "images/button_patreon.png", "buttonPath": "https://www.patreon.com/c/apeironcheung" }
-    ]//"https://www.youtube.com/@Spirit-Channel-main"
+    ]
   };
 }
-
+function load2Ddesign(){
+   return{
+    "description":[
+      {"paragraph":"These are the 2D arts I made"}
+    ],
+    "content":[
+      {"name": "Escape Room Poster 1", "path" :"poster1.png", "year":"2025",
+        "description" : "Poster for Escape Room play test for course DATT4310 in York U."},
+      {"name": "Escape Room Poster 2", "path" :"poster2.png", "year":"2025",
+        "description" : "Poster for Escape Room play test for course DATT4310 in York U."},
+      {"name": "UFO script", "path" :"UFO_script.png", "year":"2025",
+        "description" : "Game art for VR part of Escape Room play test for course DATT4310 in York U."},
+      {"name": "HK Rose garden project cover", "path" :"HK rose garden project v4.jpg", "year":"2016",
+        "description" : "Cover for Board Game I designed in 2016."}      
+    ]
+  };
+}
 function load3Dmodels(){
   return{
     "description":[
@@ -25,7 +42,16 @@ function load3Dmodels(){
         "description": "Second homework of 3D modeling course in York U, using reference pictures to modeling precisely."},
       {"name": "Goku", "id":"FI4AxjqRYoc", "year":"2020", "software":"Maya",
         "description":"Final project of 3D modeling course in York U, applied rendering technique to self made model."
-      }
+      },
+      {"name": "Remote", "id":"AHJvqqb8IAs", "year":"2022", "software":"Rhino7",
+        "description":"Made by typing command and exact inch, using remote as exercise."
+      },
+      {"name": "Guan Gong Heavy Armor", "id":"betAKO6uABI", "year":"2022", "software":"Rhino7",
+        "description":"Guan Gong with heavy armor and machine gun, ready to fight against aliens! Rhino 3d projects for the course 3D fabrication (DATT3940) in York University, it can be printed!."
+      },
+      {"name": "Green Zaku, the romantic of men", "id":"xlfuk-u7-lY", "year":"2022", "software":"Rhino7",
+        "description":"Green Zaku equipped electric heat axe and missiles in feet. Final assignment of 3D fabrication course in York U. "
+      }            
     ]
   };
 }
@@ -46,7 +72,15 @@ function loadAnimations(){
       {"name":"Particle movement of The Heart Sutra", "id":"oDjZVBUyZK8", "year":"2021", "software":"Max8",
         "description":"Using soundwaves of chanting The Heart Sutra as input and affecting move of particles. Project in DATT2050 made by Max8 in 2021."},
       {"name":"Rose field in aurora", "id":"videos/DATT2050_P3.mp4", "year":"2021", "software":"Max8", "upload":"true",
-        "description":"Rose field in aurora (DATT2050 project) is made by Max8 in 2021. It demonstrates rotation of particles in form of flowers, aurora and sea waves. "}
+        "description":"Rose field in aurora (DATT2050 project) is made by Max8 in 2021. It demonstrates rotation of particles in form of flowers, aurora and sea waves. "},
+      {"name":"Video editing in Max8", "id":"lTKcHvTDgLc", "year":"2020", "software":"Max8",
+       "description":"Max8 demo of video effects, made in 2020 for course DATT1010 Assignment 3 in YorkU."},
+      {"name":"MTV - rage of artworks", "id":"videos/DATT1010P4.mp4", "year":"2020", "software":"Max8","upload":"true",
+       "description":"Using sound effect as input to control pictures, in order to express rhythm visually. Max8 demo of video effects, made in 2020 for course DATT1010 Final Assignment in YorkU."},
+      {"name":"MTV - flying over planet", "id":"videos/DATT1020A1.mp4", "year":"2021", "software":"Max8","upload":"true",
+       "description":"Using sound effect as input to control 3D models dancing with rhythms. Max8 demo of video effects, made in 2021 for course DATT1020 Final Assignment in YorkU."},
+      {"name":"MTV - Universe sign of Zeta", "id":"videos/DATT1020A2.mp4", "year":"2021", "software":"Max8","upload":"true",
+       "description":"Using sound effect as input to control 3D models dancing with rhythms. Max8 demo of video effects, made in 2020 for course DATT1010 Final Assignment in YorkU."}                           
     ]
   }
 }
@@ -67,7 +101,9 @@ function loadYouTube(){
 function homePage(){
   return{
         "description":[
-      {"paragraph":"Welcome to Apeiron Creative Grove! This is a collection of my artwork, articles and codes."}
+      {"paragraph":"Welcome to Apeiron Creative Grove! This is a collection of my artwork, articles and codes.<br>"+
+        "This website is still under construction, some of my 3D models and animations are uploaded, but the games and programming codes still not uploaded yet. "+
+        "The story I wrote can be seen soon!"}
     ],
     "content":[
 
@@ -78,7 +114,11 @@ function aboutPage(){
   return{
         "description":[
       {"paragraph":"About Me<br><br>" +
-        "I am a polymath that expertise in 3D model & animation, 2D graphics, Chinese writing and coding, with heavy background in Spiritual and Traditional Chinese culture."+ 
+        "Toronto based digital artist immigrant from Hong Kong, transformed from a wordsmith. "+
+        "Born with critical thinking and creativity, boosted learn ability a lot from Philosophy degree, and then became a Polymath. "+
+        "I have multiple identities: 3D modeller, 3D animator, graphics designer, story writer, game designer, game programmer, gamer, fortune teller, martial artist, news editor, activist, politician, "+
+        "with academic background on "+
+        "economics, literature, history, philosophy, computer science while focus on Spiritual, Traditional Chinese culture and applied history.<br><br>"+ 
         "I just follow the flow and learn the skills. I learn new skills every stage<br><br>"+
         "I started writing science faction when I was in high school(2000), since I faced bottleneck on hand drawing. "+
         "I keep writing on website, and published my novel in CW (Comic World) and RG (Rainbow Gala), which are ACG events. "+

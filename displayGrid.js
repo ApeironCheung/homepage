@@ -54,6 +54,39 @@ for (let i = 0; i < json.length; i++) {
     container.innerHTML = output;
     desc.innerText = description;
 }
+function designPage() {
+    const container = document.getElementById("grid");
+    const desc = document.getElementById("description");
+    
+    if (!container || !desc) return;
+
+    let jsonData = load2Ddesign();
+
+    let json = jsonData.content;
+    let description = jsonData.description[0].paragraph; 
+
+
+    let output = "";
+for (let i = 0; i < json.length; i++) {
+    const item = json[i];
+
+    output += `
+        <div class="grid-item">`;
+
+    output += `
+            <img src = "images/${item.path}" alt = "${item.name}">`;
+    output += `
+        <h3>${item.name}</h3>
+        <p><strong>Year created:</strong> ${item.year}</p>
+        <p>${item.description}</p>
+        </div>`;
+}
+
+
+    container.innerHTML = output;
+    desc.innerText = description;
+}
+
 function createVideoPage() {
     videoPage(0);
 }
