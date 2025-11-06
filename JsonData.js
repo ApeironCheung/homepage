@@ -8,8 +8,8 @@ function loadSideBar() {
       { "buttonImg": "images/button_design.png", "buttonPath": "design.html" },      
       { "buttonImg": "images/button_spiritChannel.png", "buttonPath": "spiritChannel.html" },
       { "buttonImg": "images/button_itch.png", "buttonPath": "https://apeironcheung.itch.io" },
-      { "buttonImg": "images/button_git.png", "buttonPath": "https://https://github.com/ApeironCheung" },
-      { "buttonImg": "images/button_patreon.png", "buttonPath": "https://www.patreon.com/c/apeironcheung" }
+      { "buttonImg": "images/button_git.png", "buttonPath": "https://https://github.com/ApeironCheung" }
+      //,      { "buttonImg": "images/button_patreon.png", "buttonPath": "https://www.patreon.com/c/apeironcheung"}
     ]
   };
 }
