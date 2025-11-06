@@ -102,8 +102,11 @@ function homePage(){
   return{
         "description":[
       {"paragraph":"Welcome to Apeiron Creative Grove! This is a collection of my artwork, articles and codes.<br>"+
-        "This website is still under construction, some of my 3D models and animations are uploaded, but the games and programming codes still not uploaded yet. "+
-        "The story I wrote can be seen soon!"}
+        "I am a multidisciplinary creator working across 2D design, 3D modeling and animation, and adventure-based storytelling.<br>"+
+        "My works are often revelations inspired by Japanese manga and traditional martial arts — transforming inner passion into digital form.<br>"+
+        "With an academic background spanning philosophy, computer science, economics, politics, and religion, I see the world as incomplete — and that’s precisely what makes it perfect.<br>"+
+        "Currently based in Ontario, I’m open to collaborative projects that explore the boundaries between design, animation, and narrative art."
+    }
     ],
     "content":[
 
@@ -113,33 +116,21 @@ function homePage(){
 function aboutPage(){
   return{
         "description":[
-      {"paragraph":"About Me<br><br>" +
-        "Toronto based digital artist immigrant from Hong Kong, transformed from a wordsmith. "+
-        "Born with critical thinking and creativity, boosted learn ability a lot from Philosophy degree, and then became a Polymath. "+
-        "I have multiple identities: 3D modeller, 3D animator, graphics designer, story writer, game designer, game programmer, gamer, fortune teller, martial artist, news editor, activist, politician, "+
-        "with academic background on "+
-        "economics, literature, history, philosophy, computer science while focus on Spiritual, Traditional Chinese culture and applied history.<br><br>"+ 
-        "I just follow the flow and learn the skills. I learn new skills every stage<br><br>"+
-        "I started writing science faction when I was in high school(2000), since I faced bottleneck on hand drawing. "+
-        "I keep writing on website, and published my novel in CW (Comic World) and RG (Rainbow Gala), which are ACG events. "+
-        "My writing skill bring me to be an editor in 2011, after I graduated from university for few years. "+
-        "I cooperated with designers and typesetters in my job, and find that I could use photoshop even my hand drawing is not good enough.<br><br>"+
-        "Umbrella Movement in 2014 changed my direction, I started learning traditional Chinese writing from a political party which value traditional Chinese culture a lot. "+
-        "Way of layoff comes to news industry in 2015, I change to a job offer me more me time, so I can focus on political and help my homeland. "+
-        "My volunteer in political party bring me experience for writing articles and promotion scripts, which practice my writing skill just upgraded. "+
-        "At the same time I took Traditional Chinese Medicine course with my girlfriend (now my wife), which all about ancient Chinese concepts. "+
-        "My teacher of TCM, bring me to his Tai Chi Master, which the tradition Chinese concepts can also apply for movements of Tai Chi, coherence with Wing Chun and Piguaquan(Chop-Hanging Fist) I learn before.<br><br>"+
-        "However, I need to relocated to Canada because of political reason, and my Chinese writing skill seems useless in an English environment, so I start thinking of formally learn 2D design, which is my coworkers' skill when I was an editor. "+
-        "Another political events happens, I was asked to edit videos and design graphics, which I practice it just after my learning. "+
-        "During that time, I watched a youtube channel teaching Purple Star Calculation, I helped my friends to calculate, and then they refer customers to me, some of my customers are astrology workers.<br><br>"+
-        "I started my study in Digital Media in York University, as I plan to move to design field. I learn 3D modeling & animation in my first year, and then effects in my second year. "+
-        "Game design is a stream in Digital Media involve a lot of coding, which Maths is vital. However, as a student in art steam in high school, I have not learnt it before like other classmates in YorkU."+
-        "I pray to Buddha for good result, and as a result I got A in those Math subjects. I successfully changed to Game Design stream, and then changed my major to Computer Science as a result of exceptional GPA. "+
-        "My experience of praying solidify my believe in religious.<br><br>"+
-        "I believe true->moral->artistic.<br><br>"+
-        "Artistic is base on moral. Artistic without moral is ugly. It cannot tell how beautiful the world is, just some personal expressions and not generally appreciated.<br>"+
-        "Moral is based on true, Moral without true is hypocritical. That's why moral need to be backed up by metaphysics, it may be philosophy or religion.<br> "+
-        "True is backed up by metaphysics, which is a priori. Anything posterior just inside Matrix and not rational. Maths is the best to exercise our critical thinking on it." }
+      {"paragraph":"<h1>About Me</h1><br><br>" +
+        "I believe art is base on Moral, anything immoral is ugly and not beautiful at all. <br><br>"+
+        "I believe moral is base on truth. Any fake morality just false believe, and mislead people. <br><br>"+
+        "That's why we need to understand metaphysics and how this world is working. "+
+        "True is backed up by metaphysics, which is a priori. Anything posterior just inside Matrix and not rational. Maths is the best to exercise our critical thinking on it." +
+        " Maths represents our ration, we cannot confident to think we know the truth when our Maths is not good enough.<br><br> "+
+        "At the same time, no one is perfect, we need to be humble. No one can guarantee they know the truth. "+
+        "Yes, my art base on truth, which I cannot guarantee, and I should keep doing it carefully and be faithful.<br><br>"+ 
+        "It's a difficult situation, just like Descartes faced in 16th century."+
+        " In the deep doubt of perception and ration, the only thing keep him believe what he see is the GOD. <br><br>"+
+        "I do the same. <br><br>"+
+        "Its about personal mythical experience. And I would like to share it in my youtube channel, which link can be found in this website."+
+        "You may find this website simple, unlike those made by WIX or wordpress. Yes, simple is the best. Just like e=mc^2. "+
+        "This website is hardcode by html, CSS and javascript, and mainly js. "+
+        "You may think that I reinvent the wheel. Yes I do. I would definitely reinvent the wheel if I need a square one to climb the stairs.<br><br>"}
     ],
     "content":[
 
